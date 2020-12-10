@@ -1,1 +1,1 @@
-# -advanced-lawnmower-simulator-blit
+# advanced-lawnmower-simulator-blit
