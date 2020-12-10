@@ -1,0 +1,8 @@
+title: Adv Lawnmower Simulator
+description: Port of the legendary Amiga game.
+author: Shane Powell
+splash:
+  file: assets/splash.png
+icon:
+  file: assets/icon.png
+version: v1.0.0
