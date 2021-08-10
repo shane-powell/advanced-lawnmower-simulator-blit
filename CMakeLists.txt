@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 project (als)
-set(32BLIT_PATH "../32blit-beta/" CACHE PATH "Path to 32blit.cmake")
-include (${32BLIT_PATH}/32blit.cmake)
+find_package (32BLIT CONFIG REQUIRED PATHS ../32blit-sdk)
 blit_executable (als als.cpp als.hpp)
 blit_assets_yaml (als assets.yml)
 blit_metadata (als metadata.yml)
