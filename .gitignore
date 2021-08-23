@@ -1,3 +1,5 @@
 build.stm32
 x64
 .vs
+out
+build.pico
